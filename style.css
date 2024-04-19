@@ -1,0 +1,61 @@
+body {
+    font-family: "Cairo", sans-serif;
+    color: black;
+}
+.note-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+#heading1 {
+    font-size: 3.45em;
+    color: unset;
+    font-family:sans-serif;
+}
+
+#input1 {
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.note {
+    height: 10em;
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+}
+.note-img {
+    /* height: 80px; */
+  
+}
+
+img {
+    height: 90px;
+    width: 220px;
+}
+
+.note-input {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#button-send {
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10%;
+    width: 100px;
+    background-color: #393838;
+    color: aliceblue;
+}
